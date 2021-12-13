@@ -2,8 +2,7 @@
 # ignore build files
 /build*
 /inst*
-
+/obj-*/
 
 build*/
-
 dist/
