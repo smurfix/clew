@@ -1,0 +1,27 @@
+Source: clew
+Priority: optional
+Maintainer: Matthias Urlichs <matthias@urlichs.de>
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.18)
+Standards-Version: 4.5.1
+Section: libs
+Homepage: https://github.com/martijnberger/clew
+Rules-Requires-Root: no
+
+Package: libclew-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libclew0 (= ${binary:Version}), ${misc:Depends}
+Description: The OpenCL Extension Wrangler Library
+ .
+ This basically works like glew, but for OpenCL.
+ you can build opencl code without needing any opencl library or include files!
+ .
+ At runtime, even if there is no opencl-enabled device present, your code will
+ still run!  Of course, you wont be able to do anything opencl-related, but you
+ wont get any errors about missing dlls and stuff, no linker errors (at least,
+ not until you try to use a non-existent opencl-enabled device of course)
+ .
+ This package contains the development files.
+ .
+ This is a static library.
