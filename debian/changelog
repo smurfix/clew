@@ -1,3 +1,9 @@
+clew (0.11+dev1-3) unstable; urgency=medium
+
+  * libclew0 is gone
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Mon, 13 Dec 2021 11:13:19 +0100
+
 clew (0.11+dev1-2) unstable; urgency=medium
 
   * Updated
