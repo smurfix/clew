@@ -1,3 +1,6 @@
 /.debhelper/
 /*-stamp
 /libclew-dev/
+/files
+/*.log
+/*.substvars

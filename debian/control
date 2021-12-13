@@ -11,7 +11,7 @@ Package: libclew-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libclew0 (= ${binary:Version}), ${misc:Depends}
+Depends: libclew0 (= ${binary:Version}), ${misc:Depends}, ${shlib:Depends}
 Description: The OpenCL Extension Wrangler Library
  .
  This basically works like glew, but for OpenCL.
